@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#websiteTitle {
+    font-size: 3em;
+}
+
+.show-column {
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-container .description {
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    max-height: 100%;
+}
+
+.show-img {
+    border-radius: 8px;
+}
+
+.show-title {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.show-rating {
+    font-size: 1.15em;
+}
+
+.good-show {
+    color: green;
+}
+
+.mid-show {
+    color: #FADA5E;
+}
+
+.bad-show {
+    color: red;
+}
